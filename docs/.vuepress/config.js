@@ -14,7 +14,9 @@ module.exports = {
         '/componentDocs/card',
         '/componentDocs/banner',
         '/componentDocs/loading',
-        '/componentDocs/star'
+        '/componentDocs/star',
+        '/componentDocs/tip',
+        '/componentDocs/select'
       ]
     }
   }

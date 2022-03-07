@@ -6863,6 +6863,28 @@ jun1-ui@^0.1.0:
     node-sass "^7.0.1"
     vue "^2.6.11"
 
+jun1-ui@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/jun1-ui/-/jun1-ui-0.1.2.tgz#e93ebd6b7084b61d2ef1fb9dff66e9e530172d69"
+  integrity sha512-heJvRIEL5mtmbWKyHAeEdI6YyBNB4NHNDeMp2wcO8r4+5X2mr9IuQWbhkf17SyzNYb+vJp4VJXbgj/N/7ITakQ==
+  dependencies:
+    core-js "^3.6.5"
+    jun1-ui "^0.1.0"
+    node-sass "^7.0.1"
+    vue "^2.6.11"
+    vuepress "^1.9.7"
+
+jun1-ui@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/jun1-ui/-/jun1-ui-0.1.3.tgz#eb991833e361a0ab22bceb613b51ecc7b0b63792"
+  integrity sha512-BuLDtZ9C4q/JscCIBlBGKNLhQmMdgmgtkIlwfK3wo2VZx3aG9N7z3A8MELy2/c5rEoU+Tr0BRTppDr5tNjPj4g==
+  dependencies:
+    core-js "^3.6.5"
+    jun1-ui "^0.1.1"
+    node-sass "^7.0.1"
+    vue "^2.6.11"
+    vuepress "^1.9.7"
+
 just-debounce@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmmirror.com/just-debounce/-/just-debounce-1.1.0.tgz#2f81a3ad4121a76bc7cb45dbf704c0d76a8e5ddf"

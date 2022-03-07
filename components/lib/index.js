@@ -2,11 +2,17 @@ import Demo from './demo';
 import Card from './card';
 import Star from './star';
 import Banner from './banner'
+import Loading from './loading'
+import Tip from './tip'
+import Select from './select'
 const components = {
   Demo,
   Card,
   Star,
-  Banner
+  Banner,
+  Loading,
+  Tip,
+  Select
 };
 const install = function (Vue) {
   if(install.installed) return;

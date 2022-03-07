@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <Demo></Demo>
+     <jun-select :selectData="selectData" @getValue="selectValue" selValue="2" fieldName="jjj"></jun-select>
+    <!-- <Demo></Demo> -->
     <!-- <jun-card></jun-card>
     <star :defaultValue="2.1" @getValue="getValueHandle">
       星星
     </star> -->
-    <!-- <jun-banner :list="dataBanner"></jun-banner>
-    <jun-loading title="请稍等..."/> -->
+    <!-- <jun-tip @close="closeHandle" title="我都好得很" content="杀菌的故事" confirmBtnTxt="确认" v-if="show"/> -->
+    <!-- <jun-banner :list="dataBanner"></jun-banner> -->
+    <!-- <jun-loading title="请稍等..."/> -->
     <!-- <div class="u-big">
-     
+    
     <div class="u-loading">
       <loading/>
     </div>
@@ -25,6 +27,15 @@ export default {
   },
   data(){
     return {
+      show: true,
+      selectData:[{
+                name: 'zhang',
+                value: '1'
+              },
+              {
+                name: 'liu',
+                value: '2'
+              }],
       dataBanner: [{
         "id": 774,
         "imageUrl": "https://ali.jinhui365.cn/group5/M00/00/8A/CgAAcmHxA_WAQW9XAAdg_cwucaY310.jpg",
@@ -39,6 +50,13 @@ export default {
     }
   },
   methods:{
+    selectValue(name, value, index,fieldName){
+      console.log('selectValue', name, value, index, fieldName)
+    },
+    closeHandle(mode){
+      console.log('closeHandle', mode)
+      this.show  = false
+    },
     getValueHandle(val){
       console.log('xin', val)
     }
